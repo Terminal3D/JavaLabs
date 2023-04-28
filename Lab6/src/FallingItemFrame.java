@@ -19,6 +19,7 @@ public class FallingItemFrame extends JFrame {
 
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setVisible(true);
+
     }
 
     private class FallingItemPanel extends JPanel {

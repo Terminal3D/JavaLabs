@@ -10,6 +10,7 @@ public class FallingItem {
 
 
     FallingItem() {
+        submitButton.setFocusable(false);
         submitButton.addActionListener(e -> {
                     if (!textField1.getText().isEmpty() && !textField2.getText().isEmpty() && !textField3.getText().isEmpty()) {
 
